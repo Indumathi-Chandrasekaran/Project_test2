@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+		<style>
+			.first_col1
+			{
+				background-color:#f19de6; 
+				height:80px; 
+				margin:10px;
+				width:100%; 
+			}
+			.first_col2
+			{
+				background-color:#0e0c98; 
+				height:80px; 
+				margin:10px;
+				width:100%; 
+			}
+			.second_row
+			{ 
+					background-color:#e2dede; 
+					height:230px;
+					margin:10px;
+					width:100%; 
+			}
+			.third_row
+			{ 
+					background-color:#0e0c98; 
+					height:50px;
+					margin:10px;
+					width:100%; 
+			}
+			.fourth_row
+			{ 
+					width:100%; 
+					background-color:#e2dede; 
+					height:20px;
+					margin:10px;
+			}
+			.fifth_row
+			{
+					width:100%; 
+					background-color:#e2dede; 
+					height:20px;
+					margin:10px;
+			}	
+            @media only screen and (min-width:768px) and (max-width:992px)
+			{
+				.first_col1{
+						background-color:#fff!important;
+						}
+			}			
+		</style>
+	</head>
+	<body>
+		<div class="container">
+				<div class="col-lg-4 col-md-2 col-sm-3 col-xs-12">
+					<div class="first_col1"></div>
+				</div>
+				<div class="col-lg-8 col-md-10 col-sm-9 hidden-xs">
+					<div class="first_col2"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="second_row"></div>
+					<div class="third_row"></div>
+					<div class="fourth_row"></div>
+					<div class="fifth_row"></div>
+				</div>
+			
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="second_row"></div>
+					<div class="third_row"></div>
+					<div class="fourth_row"></div>
+					<div class="fifth_row"></div>
+				</div>
+		
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="second_row"></div>
+					<div class="third_row"></div>
+					<div class="fourth_row"></div>
+					<div class="fifth_row"></div>
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class="second_row"></div>
+					<div class="third_row"></div>
+					<div class="fourth_row"></div>
+					<div class="fourth_row"></div>
+				</div>
+			
+		</div>
+	</body>
+</html>
